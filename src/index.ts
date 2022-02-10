@@ -67,7 +67,7 @@ const root = {
   updateUser,
 }
 
-var app = express()
+const app = express()
 app.use(
   "/graphql",
   graphqlHTTP({
